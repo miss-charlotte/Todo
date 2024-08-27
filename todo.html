@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>Todo</h2>
+        <div class="row">
+          <input
+            type="text"
+            name="#"
+            id="input-box"
+            placeholder="Add your text"
+          />
+          <button id="add-button" onclick="addTask()">Add</button>
+        </div>
+
+        <ul id="list-container">
+          <!-- <li class="checked">Organize photo shoot</li>
+          <li>Buy milk</li>
+          <li>Call mummy</li>
+          <li>Apply for passport</li>
+          <li>Plan for trip</li>
+          <li>Eat dinner</li> -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="todo.js"></script>
+  </body>
+</html>
