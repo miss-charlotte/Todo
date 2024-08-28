@@ -12,33 +12,35 @@
 }
 
 .todo-app {
+  max-width: 700px;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(212, 210, 210, 0.2);
+  margin: 0 auto;
 }
 
 h2 {
   font-weight: 500;
+  font-size: 20px;
+  text-align: center;
 }
 
 .row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  margin: 15px 0;
 }
 
 form {
-  margin: 10px 0;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: center;
+  justify-content: space-between; */
 }
 
 #input-box {
-  padding: 10px 50px 10px 5px;
+  padding: 10px 100px 10px 5px;
   border: 1px solid #8fd3f4;
   border-radius: 5px;
   outline: none;
+  margin-right: 20px;
 }
 
 #add-button {
@@ -85,21 +87,20 @@ li.checked {
 
 li.checked::before {
   background-image: url(images/select.png);
-  
 }
 
 ul li span {
-    position: absolute;
-    right: 0;
-    top:12px;
-    width: 35px;
-    height: 35px;
-    color: #464646;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  width: 35px;
+  height: 35px;
+  color: #464646;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 ul li span:hover {
-    background: #edeef0;
+  background: #edeef0;
 }
